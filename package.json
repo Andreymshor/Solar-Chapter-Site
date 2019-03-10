@@ -1,0 +1,16 @@
+{
+  "name": "solarchapter",
+  "version": "1.0.0",
+  "description": "Event page for solar chapter",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Andrey Shor",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+
+  }
+
+}
