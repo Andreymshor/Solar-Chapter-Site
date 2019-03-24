@@ -8,11 +8,17 @@
   background-position: top;
   /* sets position of image to top */
   position: relative;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
   /*clips image*/
+  @include respond(phone) {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+  }
+
   &__logo-box {
     position: absolute;
-    font-size: 30px;
+    font-size: 3rem;
     top: 4rem;
     left: 4rem;
     color: $color-white;

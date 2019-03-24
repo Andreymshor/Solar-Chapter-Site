@@ -12,7 +12,7 @@
     left: 0;
     width: 100%;
     backface-visibility: hidden;
-    border-radius: 3px;
+    border-radius: 0.3rem;
     overflow: hidden;
     box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
 
@@ -36,9 +36,9 @@
 
   &__picture {
     background-size: cover;
-    height: 50%;
+    height: 35rem;
     background-blend-mode: screen;
-    background-image: linear-gradient(to right bottom, rgba($color-primary-light,0.6), rgba($color-text,0.6)), url("../img/Hall_of_Music.JPG");
+    background-image: linear-gradient(to right bottom, rgba($color-primary-light,0.7), rgba($color-text,0.75)), url("../img/Hall_of_Music.JPG");
   }
 
   &__heading {
@@ -46,13 +46,14 @@
     font-weight: 300;
     text-transform: uppercase;
     text-align: center;
-    color: $color-white;
+    color: #46344E;
     position: relative;
-    top: -22.5rem;
+    top: -20.5rem;
     //right: 10rem;
   }
 
   &__heading-span {
+    padding: 1rem 1.5rem;
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone;
   }
@@ -68,9 +69,10 @@
       li {
         text-align: center;
         font-size: 2.5rem;
+        padding: 0.1rem;
 
         &:not(:last-child) {
-          border-bottom: 1px solid $color-grey-darker;
+          border-bottom: 0.01rem solid $color-grey-darker;
         }
       }
     }

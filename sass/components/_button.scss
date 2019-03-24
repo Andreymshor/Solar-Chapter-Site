@@ -4,9 +4,9 @@
     /*:link is a pseudoclass to style elements under a special conditions*/
     text-transform: uppercase;
     text-decoration: none;
-    padding: 15px 40px;
+    padding: 1.5rem 4rem;
     display: inline-block;
-    border-radius: 100px;
+    border-radius: 10rem;
     transition: all 0.2s;
     position: relative;
   }
@@ -30,7 +30,7 @@
 
   &--white {
     background-color: #fff;
-    font-size: 20px;
+    font-size: 2rem;
     color: $color-grey-dark;
 
     &::after {
@@ -43,7 +43,7 @@
     display: inline-block;
     height: 100%;
     width: 100%;
-    border-radius: 100px;
+    border-radius: 10rem;
     position: absolute;
     top: 0;
     left: 0;
@@ -64,8 +64,8 @@
     color: $color-text;
     display: inline-block;
     text-decoration: none;
-    border-bottom: 1px solid $color-text;
-    padding: 3px;
+    border-bottom: 0.1rem solid $color-text;
+    padding: 0.3rem;
     transition: all 0.2s;
   }
 
