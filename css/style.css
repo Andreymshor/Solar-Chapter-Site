@@ -5,6 +5,21 @@ primary-yellow-dark: #FEF740
 primary-yellow-light:#FFFFE0
 
 */
+/*
+0 - 600px:             Phone
+600 - 900px:            Tablet portrait
+900 - 1200px:           Tablet Landscape
+1200 - 1800px:          normal styles appear
+1800px +:              Big Desktop
+$breakpoint arguement choices:
+- Phone
+- tab-port
+- tab-land
+- big-desktop
+  1em = 16px
+
+  Order: Base + Typographu > general layout + grid > page layout > components
+*/
 /*grid */
 /*Keyframes section*/
 @keyframes moveInLeft {
